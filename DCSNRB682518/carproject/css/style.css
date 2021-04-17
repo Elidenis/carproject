@@ -1,0 +1,167 @@
+body{
+	width: 100%; 
+	height:100vh;
+	background-color: gray;
+	display: table;
+	font-family: quicksand;
+}
+
+
+.wrapper{
+	padding:10px;
+	width: 100%;
+	height: 90px;
+	opacity: .7;
+	padding-bottom: 24px;
+	background: white;
+}
+.nav-contuct{
+	position: absolute;
+	top: 0;
+	left: 4px;
+	margin: 2px;
+	padding: 4px;
+	margin-bottom: 4px;
+
+}
+
+
+.left{
+	float: left;
+}
+
+.left ul{
+	list-style: none;
+}
+
+.left ul li {
+	display: inline-block;
+
+}
+
+.left ul li a{
+	text-decoration: none;
+	color: black;
+	font-weight: 400;
+	padding: 8px 16px;
+	float: left;
+	padding-bottom: 4px;
+}
+
+.right{
+	float: right;
+	margin-top: 2%;
+	
+}
+
+
+.right ul{
+	list-style: none;
+}
+
+.right ul li {
+	display: inline-block;
+}
+
+.right  ul li a{
+	text-decoration: none;
+	color: black;
+	font-weight: 400;
+	padding: 8px 16px;
+	float: left;
+	padding-bottom: 4px;
+}
+ul li a:hover{
+	cursor: pointer;
+	color: green;
+}
+
+.right li:nth-child(1) a {
+	border: 1px solid green;
+	border-radius: 4px;
+
+}
+
+.right li:nth-child(2) a {
+	border: 1px solid green;
+	border-radius: 4px;
+
+}
+
+
+.header{
+	text-align: center;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.header h1{
+	font-family: quicksand;
+	color: white;
+	font-size: 36px;
+
+}
+
+.header p{
+	color: white;
+	font-family: Arial;
+	font-size: 18px;
+}
+
+
+/*the  beginig of comment section*/
+
+
+.narv{
+	width: 98%;
+	height: 60px;
+	margin-bottom: 20px;
+	background-color: gray;
+	border-radius: 4px;
+	padding: 10px;
+}
+ul li{
+	float: left;
+	text-decoration: none;
+	margin-right: 300px;
+}
+a{
+	text-decoration: none;
+}
+.comment-body{
+	background-color:white;
+	background-size: cover;
+	height: 100vh;
+
+}
+
+textarea {
+	margin-left: 30px;
+	width: 500px;
+	height: 80px;
+	background-color: white;
+	resize: none;
+	padding: 10px;
+	border-radius: 4px;
+	border-bottom: 1px solid green;
+}
+
+button {
+	margin-left: 50px;
+	width: 100px;
+	height: 30px;
+	background-color: gray;
+	border:none;
+	border-radius: 4px;
+	color:white;
+	font-family: arial;
+	font-weight: 400;
+	cursor: pointer;
+	margin-bottom: 60px;
+	margin-top: 8px;
+}
+button:hover{
+	background:green;
+}
